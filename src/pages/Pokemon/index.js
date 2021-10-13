@@ -21,7 +21,7 @@ const Pokemon = () => {
           <h3>{data.species.name}</h3>
           <img src={data.sprites.front_shiny} alt={data.species.name} />
           <Button onClick={() => dispatch(updatePokemonName('Aliyev')) }>Adını değiştir</Button>
-          <Button onClick={() => reNamePokemonFromApi('Haydar') }>Adını değiştir (SERVER)</Button>
+          <Button onClick={() => reNamePokemonFromApi('Haydar') }>Adını değiştir ( with API CALL)</Button>
         </>}
       </div>
     </Layout>
