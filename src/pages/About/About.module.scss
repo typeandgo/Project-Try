@@ -1,0 +1,15 @@
+.about {
+  text-align: center;
+  
+  .title {
+    font-size: 160px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: var(--bg-color);
+    user-select: none;
+  }
+
+  .text {
+    margin-bottom: 30px;
+  }
+}
