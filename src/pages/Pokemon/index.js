@@ -20,8 +20,8 @@ const Pokemon = () => {
         { Object.keys(data).length > 0 && <>
           <h3>{data.species.name}</h3>
           <img src={data.sprites.front_shiny} alt={data.species.name} />
-          <Button onClick={() => dispatch(updatePokemonName()) }>Adını değiştir</Button>
-          <Button onClick={() => dispatch(reNamePokemonFromApi('bulbasaur')) }>Adını değiştir (SERVER)</Button>
+          <Button onClick={() => dispatch(updatePokemonName('Aliyev')) }>Adını değiştir</Button>
+          <Button onClick={() => reNamePokemonFromApi('Haydar') }>Adını değiştir (SERVER)</Button>
         </>}
       </div>
     </Layout>
