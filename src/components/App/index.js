@@ -11,6 +11,7 @@ import Counter from 'pages/Counter';
 import Pokemon from 'pages/Pokemon';
 import Todo from 'pages/Todo';
 import NotFound from 'pages/NotFound';
+import 'webSocket/webSocket';
 
 const App = () => {
   return (
